@@ -1,0 +1,28 @@
+# Dependencies and build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Local secrets
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+.wrangler
+
+# Local tooling and presentation exports
+/.agents/
+/.aws/
+/.codex/
+/artifacts/
+
+# TypeScript / tooling
+*.tsbuildinfo
+.DS_Store
+coverage
+*.log
+
+# pnpm
+.pnpm-store
